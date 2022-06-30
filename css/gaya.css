@@ -1,0 +1,115 @@
+:root{
+    
+        --mainColor : #161618;
+    
+        --warnakedua : #DFC159;
+        --warnaketiga : #Efc862;
+        --warnakeempat : #9e8525;
+        --warnakelima : #8a8368;
+    
+    }
+    
+body {
+        background-color: var(--mainColor);
+        min-height: 800px;
+        font-family: 'Arial',sans-serif;
+        height: 100ph;
+        padding-top: 6rem;
+    }
+.last{
+    background-color:  #303033 ;
+}
+
+.nav-link.active{
+    color: var(--warnaketiga) !important;
+    font-weight:700
+}
+.nav-link{
+    color: #fff;
+    font-weight:700
+
+}
+.warna-stmik{
+    color: var(--warnaketiga);   
+}
+
+
+#satu{
+    color: #fff;
+    min-height: 100vh;
+}
+#satu h1{
+    font-size: 3rem;
+}
+#satu h2{
+    font-weight: 200;
+}
+.sosialmedia svg{
+    margin-right: 0.6em;
+    margin-bottom: 10px;
+}
+
+hr{
+    width: 40%;
+    height: 4px;
+    color: var(--warnakeempat);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#kedua{
+    min-height: 300px;
+    width: 100%;
+    background-color: #303033;
+    color: #fff;
+     
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+#ketiga{
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+   
+
+}
+#ketiga{
+    margin-top: 120px;
+}
+
+#ketiga .card{
+    background-color: #66696b;
+    height: 340px;
+}
+
+
+#ketiga .card:hover{
+    background-color: var(--warnaketiga);
+    
+}
+ 
+#keempat{
+    margin-top:-200px;
+    padding: 270px;
+    padding-bottom: 80px;
+    background-color:#303033;
+    color: #fff;
+    min-height: 600px;
+     
+}
+#keempat .card{
+    background-color: #66696b;
+     
+}
+#keempat .card:hover{
+    background-color: var(--warnakeempat);
+    
+}
+#kelima{
+    color: #fff;
+}
+footer{
+    color: #fff;
+}
